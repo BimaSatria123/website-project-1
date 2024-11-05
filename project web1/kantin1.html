@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kantin 1</title>
+    <link rel="stylesheet" href="style.css">
+    <header>
+        <nav>
+            <ul>
+                <li class="title">
+                    <p style="margin-top: 10px;">Kantin<setrong style="color: red;">KU</setrong>
+                    </p>
+                </li>
+                <div>
+                    <li class="listyle-contact" style="float: right;"><a class="no-decoration1" href="kontak.html">Contact</a></li>
+                    <li class="listyle-menu" style="float: right;"><a class="no-decoration" href="halaman.html">Home</a></li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    
+</head><br><br><br>
+<body>
+    <img class="img-style-1" src="../image/Kantin halaman.jpg">
+    <!-- Fungsi Class di bawah adalah untuk menyamakan style dari kantin  1-6 -->
+<div class="all-kantin-style-same"> 
+
+    <div class="kantin1-pg3">
+    <center>
+    <h3>MENU KANTIN 1</h3>
+    </center>
+    </div> <br> 
+    <hr class="hr-style">
+    <br>
+    <div class="Menu-list-page3">
+        <!-- Menu List -->
+        <center>
+        <h2>List Menu & Harga</h2><br>
+        <h3 style="color: aliceblue;">Chiken Sauce :  8k </h3>
+        <h3>Crab Stick : 5K    </h3>
+        <h3>Sosis      : 5K   </h3>
+        <h3>Odeng      : 3,5K   </h3>
+        <h3>Lumpia     : 7K   </h3>
+        <h3>Risol Mayo : 2,5K   </h3>
+        </center>
+    </div><br>
+    <hr class="hr-style">
+    <!-- Aneka Sauce -->
+    <div class="aneka-sauce">
+        <center>
+            <h2>Aneka Sauce</h2><br>
+            <h3>Mayonaice</h3>
+            <h3>Cili Oil</h3>
+            <h3>Sauce Tomato</h3>
+            <h3>Sauce Pedas</h3>
+            <h3>Sauce Steak</h3>
+            <h3>Sauce BBQ</h3>
+            <h3>Sauce Black Paper</h3>
+            <h3>Sauce Special</h3>
+        </center>
+
+    </div> <br>
+</div>   
+    <!-- Tombol untuk membuka popup pemesanan -->
+<a href="#popup" class="order-btn">Pesan Makanan</a>
+
+<!-- Popup Pemesanan -->
+<div class="popup-overlay" id="popup">
+    <div class="popup">
+        <h2>Pemesanan Makanan</h2>
+        <form action="#success">
+            <input type="text" placeholder="Nama Pemesan" required>
+            <select required>
+                <option value="">Pilih Makanan</option>
+                <option value="Chiken-Sauce">Chiken Sauce</option>
+                <option value="Crab-Stik">Crab Stik</option>
+                <option value="Sosis">Sosis</option>
+                <option value="Odeng">Odeng</option>
+                <option value="Lumpia">Lumpia</option>
+                <option value="Risol-Mayo">Risol Mayo</option>
+            </select>
+            <select required>
+                <option value="">Pilih Sauce</option>
+                <option value="Mayonaice">Mayonaice</option>
+                <option value="Cili-Oil">Cili Oil</option>
+                <option value="Sauce-Tomato">Sauce Tomato</option>
+                <option value="Sauce-Pedas">Sauce Pedas</option>
+                <option value="Sauce-BBQ">Sauce BBQ</option>
+                <option value="Sauce-Black-Paper">Sauce Black Paper</option>
+                <option value="Sauce-Special">Sauce Special</option>
+            </select>
+            <button type="submit" class="order-btn-success">Pesan Sekarang</button>
+        </form>
+        <a href="#" class="close-btn">Tutup</a>
+    </div>
+</div><br><br>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+        <!-- Kolom Visi Misi -->
+        <div class="footer-column">
+            <h3>Visi dan Misi</h3>
+            <p><strong>Visi:</strong> Menjadi sekolah unggul dalam pembentukan karakter dan akademik.</p>
+            <p><strong>Misi:</strong> Menciptakan lingkungan pembelajaran yang inspiratif, mendukung kreativitas, dan menanamkan nilai-nilai moral.</p>
+        </div>
+
+        <!-- Kolom Nama Sekolah -->
+        <div class="footer-column">
+            <h3>Nama Sekolah</h3>
+            <p>SMKN 2 KOTA BANDUNG</p>
+            <p><a href="#">https://www.smkn2bandung.sch.id/</a></p>
+        </div>
+
+        <!-- Kolom Alamat Sekolah -->
+        <div class="footer-column">
+            <h3>Alamat Sekolah</h3>
+            <p>Jl. Ciliwung No.4, Cihapit, Kec. Bandung Wetan, Kota Bandung, Jawa Barat 40114</p>
+            <p>Tel: 0227234285</p>
+            <p>Email: info@smkn2bandung.sch.id</p>
+        </div>
+
+        <!-- Kolom Google Maps -->
+        <div class="footer-column">
+            <h3>Lokasi Kami</h3>
+            <div class="map-container">
+                <!-- Tempelkan kode iframe Google Maps di sini -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.333399582448!2d107.6233869!3d-6.9059631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e7b56d06cd4f%3A0xb95ab7cac238eb8b!2sSMKN%202%20Kota%20Bandung!5e0!3m2!1sen!2sid!4v1699915898775!5m2!1sen!2sid" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- Copyright -->
+    <div class="footer-bottom">
+        &copy; 2024 SMKN 2 Bandung. All rights reserved.
+    </div>
+</footer>
+
+
+</body>
+</html>

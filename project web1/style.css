@@ -1,0 +1,402 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    max-width: 100vw;
+    font-family: Segoe UI;
+    background-image: url('../images/background.jpg');
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+}
+
+
+/* Halaman Utama */
+
+
+/* Navigation bar */ 
+nav {
+    margin: 0;
+    width: 100%;
+    height: 60px;
+    background: rgb(80,80,80);
+    background: radial-gradient(circle, rgba(80,80,80,1) 0%, rgba(0,0,0,1) 100%);
+    /* shadow color/settings */
+    box-shadow: 2px 4px 27px 0px rgba(255,255,255,0.75);
+    -webkit-box-shadow: 2px 4px 27px 0px rgba(255,255,255,0.75);
+    -moz-box-shadow: 2px 4px 27px 0px rgba(255,255,255,0.75);
+} 
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+li {
+    color: white;
+    gap: 10px;
+}
+
+.listyle-contact{
+    margin-right: 20px;
+    color: aliceblue;
+    transition: transform 0.5s;
+}
+
+.listyle-menu{
+    margin-right: 20px;
+    color: aliceblue;
+    transition: transform 0.5s;
+}
+/* Hover style Halaman */
+.listyle-contact:hover {    
+    background-color: rgb(255, 10, 10);
+    transform: scale(1.1); 
+    border-radius: 5px;
+    transform: translateX(-10px);
+}
+
+.listyle-menu:hover { 
+    background-color: rgb(255, 10, 10);
+    transform: scale(1.1); 
+    border-radius: 5px; 
+    transform: translateX(-10px);
+}
+
+/* tittle */
+
+.title{
+    margin-left: 20px;
+    display: flex;
+
+}
+
+/* Text Decotaion none*/
+.no-decoration{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.no-decoration1{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+ /* Kantin  */
+.judul{
+    color: rgb(255, 255, 255);
+    font-family: segoe ui;
+}
+/* halaman utama */
+.content-web{
+    color: aliceblue;
+    text-align: center;
+}
+
+/* content pengertian*/
+.judul-page-pengertian{
+    margin-top: 60px;
+    color: aliceblue;
+    text-align: center;
+}
+.border-penjelasan{
+    max-width: 1000px;
+    margin-top: 100px;
+    margin-left: 250px;
+    background-color: rgb(57, 56, 56);
+    border-radius: 10px;
+    border-style: groove;
+    
+    /* box shadow settings */
+    box-shadow: -1px 2px 45px 0px rgba(255,255,255,0.75);
+-webkit-box-shadow: -1px 2px 45px 0px rgba(255,255,255,0.75);
+-moz-box-shadow: -1px 2px 45px 0px rgba(255,255,255,0.75);
+}
+
+.content-text{
+    margin-top: 10px;
+    text-align: center;
+    color: aliceblue;
+}
+
+
+     /* Gaya untuk footer */
+    .footer {
+        background-color: #333;
+        color: #f2f2f2;
+        padding: 40px 0;
+        text-align: center;
+    }
+
+    .footer-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    .footer-column {
+        flex: 1 1 250px;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .footer-column h3 {
+        font-size: 1.2em;
+        margin-bottom: 15px;
+        color: #f8b400;
+    }
+
+    .footer-column p {
+        font-size: 0.9em;
+        line-height: 1.6;
+        color: #ddd;
+    }
+
+    /* Gaya untuk iframe Google Maps */
+    .map-container iframe {
+        width: 100%;
+        height: 200px;
+        border: 0;
+        border-radius: 8px;
+    }
+
+    /* Gaya untuk alamat dan link */
+    .footer-column a {
+        color: #f8b400;
+        text-decoration: none;
+    }
+
+    .footer-column a:hover {
+        text-decoration: underline;
+    }
+
+    /* Gaya copyright */
+    .footer-bottom {
+        margin-top: 20px;
+        padding-top: 20px;
+        border-top: 1px solid #555;
+        font-size: 0.8em;
+        color: #888;
+    }
+
+/* Toko Kantin */
+/* Menu Kantin Style */
+
+.no-decoration-menu{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+/* tittle */
+.Tittle-toko{
+    color: aliceblue;
+}
+/* body */
+.img-style-1{
+    position: relative;
+    width: 100%;
+    height: 300px  ;
+    border-radius: 10px;
+    object-fit: cover;
+    filter: blur(2px);
+
+}
+/* Gaya untuk container utama */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1250px; /* Sesuaikan dengan kebutuhan */
+    margin: 0 auto;
+}
+
+.Cont-1{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: segoe ui;
+}
+.Cont-2{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: segoe ui;
+}
+.Cont-3{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: segoe ui;
+}
+.Cont-4{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: segoe ui;
+}
+.Cont-5{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: segoe ui;
+}
+.Cont-6{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: segoe ui;
+}
+
+/* hover */
+.box:hover{
+    transform: scale(1.1);
+    background-color: rgb(255, 255, 255);
+    transform: translateY(-10px);
+
+    /* Box Shadow settings */
+    box-shadow: -1px 0px 47px 15px rgba(216, 217, 219, 0.75);
+    -webkit-box-shadow: -1px 0px 47px 15px rgba(255, 255, 255, 0.75);
+    -moz-box-shadow: -1px 0px 47px 15px rgba(157, 159, 161, 0.75);
+}
+.box {
+    flex: 1 1 33.33%; /* Setiap box akan mengambil sepertiga lebar container */
+    padding: 20px;
+    margin-top: 100px;
+    box-sizing: border-box;
+    border: 1px solid #75777b;
+    text-align: center;
+    background-color: #ffffffa1;
+    border-radius: 2px;
+    transition: transform 0.2s;
+}
+
+
+
+/* Kantin1 */
+/* Style Sheet Kantin 1.html */
+
+.kantin1-pg3{
+    margin-top: 100px;
+    margin-right: 50px;
+    color: aliceblue;
+}
+
+.Menu-list-page3{
+    color: aliceblue;
+    margin-right: 60px;
+}
+
+.aneka-sauce{
+    color: aliceblue;
+    margin-right: 60px;
+}
+/* Fungsi Class di bawah adalah untuk menyamakan style dari kantin  1-6 */
+.all-kantin-style-same{
+    margin-left: 50px;
+}
+/* HR STYLE */
+.hr-style{
+    margin-right:50px;
+}
+
+ /* Tombol Pesan */
+    .order-btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    margin-left: 680px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.order-btn:hover {
+    background-color: #0056b3;
+}
+
+
+/* Popup overlay */
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Menampilkan popup saat target aktif */
+#popup:target,
+#success:target {
+    display: flex;
+}
+
+.popup, .success-popup {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.popup h2, .success-popup h2 {
+    margin: 0 0 10px;
+}
+
+.popup form {
+    display: flex;
+    flex-direction: column;
+}
+
+.popup form input,
+.popup form select {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Tombol Tutup */
+.close-btn {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+}
+
+.close-btn:hover {
+    background-color: #c82333;
+}
+
+/* Tombol Pesan Sekarang */
+.order-btn-success {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.order-btn-success:hover {
+    background-color: #218838;
+}
+
